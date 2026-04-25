@@ -1,0 +1,22 @@
+@theme "android_notification"
+
+configuration {
+    display-drun: "Applications";
+    drun-display-format: "{icon} {name}";
+    show-icons: true;
+    font: "JetBrainsMono Nerd Font 12";
+    icon-theme: "Papirus";
+}
+
+element-icon {
+    size: 8ch;
+}
+
+listview {
+    columns: 4;
+    lines: 4;
+    spacing: 10;
+    cycle: false;
+    scrollbar: false;
+}
+
